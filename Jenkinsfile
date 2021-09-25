@@ -66,7 +66,7 @@ pipeline {
       }
       steps {
         echo 'Deploy to AWS Prod'
-        jiraComment(issueKey: 'SFO-107', body: 'This is a comment regarding the quality of the responsess.')
+        jiraComment(issueKey: 'SFO-107', body: 'This is a comment regarding the quality of the responses.')
       }
     }
 
